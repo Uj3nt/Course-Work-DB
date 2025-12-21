@@ -27,6 +27,7 @@ func main() {
 		&models.Result{},
 	)
 
+	utils.ExecuteBackup()
 	r := gin.Default()
 
 	config := cors.DefaultConfig()
